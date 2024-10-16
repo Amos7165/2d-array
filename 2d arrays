@@ -1,0 +1,13 @@
+//arrays 
+#include<stdio.h>
+int main(){
+int i, l;
+int marks [2][3]={{40,70,30},{50,60,75}};
+for(i=0;i<2;i++){
+for(l=0;l<3;l++){
+printf("marks[%d][%d]=%d\n",i,l, marks [i][l]);
+}
+
+}
+return 0;
+}
